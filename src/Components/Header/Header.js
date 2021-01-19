@@ -10,7 +10,7 @@ export default function Header(props) {
                         className='headings'
                     >
                         <h1>
-                            TITLE
+                            Epic Encounters
                         </h1>
                         <h2>
                             TAGLINE
@@ -30,7 +30,7 @@ export default function Header(props) {
                         className='headings'
                     >
                         <h1>
-                            TITLE
+                            Epic Encounters
                         </h1>
                         <h2>
                             TAGLINE

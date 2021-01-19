@@ -1,0 +1,36 @@
+.LandingContent {
+    background-color: beige;
+}
+
+.LandingSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.LandingPreview {
+    display: flex;
+    flex-direction: column;
+}
+
+.LandingHeader {
+
+}
+
+.LandingImage {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.LandingButton {
+
+}
+
+.LandingText {
+
+}

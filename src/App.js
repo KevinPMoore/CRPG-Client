@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Components/Header/Header';
+import Landing from './Routes/Landing';
 import './App.css';
 
 export default function App() {
@@ -7,7 +8,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <Header loggedIn={loggedIn}/>
+      <Header loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>
+      <Landing/>
     </div>
   );
 };
