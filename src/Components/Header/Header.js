@@ -7,7 +7,7 @@ export default function Header(props) {
             return(
                 <header>
                     <div
-                        className='headings'
+                        className='Headings'
                     >
                         <h1>
                             Epic Encounters
@@ -17,7 +17,7 @@ export default function Header(props) {
                         </h2>
                     </div>
                     <div
-                        className='headerbuttons'
+                        className='HeaderButtons'
                     >
 
                     </div>
@@ -27,7 +27,7 @@ export default function Header(props) {
             return(
                 <header>
                     <div
-                        className='headings'
+                        className='Headings'
                     >
                         <h1>
                             Epic Encounters
@@ -37,7 +37,7 @@ export default function Header(props) {
                         </h2>
                     </div>
                     <div
-                        className='headerbuttons'
+                        className='HeaderButtons'
                     >
                         <button>
                             Login
