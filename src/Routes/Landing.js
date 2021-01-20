@@ -1,33 +1,24 @@
 import React, { useState } from 'react';
+import Rulebook from '../Components/Rulebook/Rulebook';
+import SampleHero from '../Components/SampleHero/SampleHero';
+import SampleCards from '../Components/SampleCards/SampleCards';
 import LandingContent from '../Components/LandingContent/LandingContent';
 
 export default function Landing(props) {
 
-    const [ modal, setModal ] = useState(null);
+    const [ modal, setModal ] = useState('');
 
     function renderLandingModal() {
         let modalContent;
         switch(modal) {
             case 'Rules':
-                modalContent = <div
-                    className='LandingModal'
-                >
-                    
-                </div>
+                    modalContent = <Rulebook full={false} setModal={setModal}/>
                 break;
             case 'Hero':
-                modalContent = <div
-                    className='LandingModal'
-                >
-
-                </div>
+                    modalContent = <SampleHero setModal={setModal}/>
                 break;
             case 'Cards':
-                modalContent = <div
-                    className='LandingModal'
-                >
-
-                </div>
+                    modalContent = <SampleCards setModal={setModal}/>
                 break;
             default:
                 return null;
@@ -37,7 +28,7 @@ export default function Landing(props) {
 
     return(
         <main>
-            { modal ? renderLandingModal() : null}
+            {renderLandingModal()}
             <LandingContent setModal={setModal}/>
         </main>
     );
