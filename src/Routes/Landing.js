@@ -4,7 +4,7 @@ import SampleHero from '../Components/SampleHero/SampleHero';
 import SampleCards from '../Components/SampleCards/SampleCards';
 import LandingContent from '../Components/LandingContent/LandingContent';
 
-export default function Landing(props) {
+export default function Landing() {
 
     const [ modal, setModal ] = useState('');
 
